@@ -1,0 +1,37 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bull": "^3.15.1",
+    "@types/express": "^4.17.12",
+    "@types/express-validator": "^3.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/socket.io": "^3.0.2",
+    "bull": "^3.22.8",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.1.13",
+    "socket.io": "^4.1.2",
+    "ts-node-dev": "^1.1.6",
+    "typedi": "^0.10.0",
+    "ytdl-core": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.0.6",
+    "@types/morgan": "^1.9.2"
+  }
+}
